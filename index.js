@@ -13,13 +13,11 @@ app.use(cookieParser());
 
 app.get('/', (_req, res) => {
     res
-        .cookie('secret', 'vasya', { httpOnly: true })
+        .cookie('secret', 'i am batman', { httpOnly: true })
         .send(readFileSync('./index.html', 'utf-8'));
 });
 
 app.post('/hello', (req, res) => {
-    console.log('hello: got body', req.body);
-
     const date = Date.now().toString()
 
     res.cookie('date', date).send(date);

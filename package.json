@@ -1,0 +1,24 @@
+{
+  "name": "beacon-experiments",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grundiss/beacon-experiments.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grundiss/beacon-experiments/issues"
+  },
+  "homepage": "https://github.com/grundiss/beacon-experiments#readme",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.17.3"
+  }
+}
